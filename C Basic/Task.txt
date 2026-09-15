@@ -1,0 +1,71 @@
+1. Add Two Numbers
+
+Task:
+Create a function `add()` that accepts two integers and returns their sum.
+
+Input:
+
+10
+20
+
+Output:
+Sum = 30
+
+
+Concept: Function + parameters + return value
+
+
+2. Find Area of Rectangle
+
+Task:
+Create a function `area()` that accepts `length` and `breadth` and returns the area of the rectangle.
+
+Formula:
+Area = length × breadth
+
+Input:
+10
+5
+
+
+Output:
+
+Area = 50
+
+Concept: Function + arithmetic operators + return value
+
+
+3. Calculate Simple Interest
+
+Task:
+Create a function `simpleInterest()` that accepts **principal, rate, and time** and returns the simple interest.
+
+Formula:
+SI = (P × R × T) / 100
+
+
+Input:
+P = 10000
+R = 5
+T = 2
+
+Output:
+Simple Interest = 1000
+
+Concept:Function + multiple parameters + arithmetic operators
+
+4. Convert Celsius to Fahrenheit
+
+Task:
+Create a function `convertToFahrenheit()` that accepts temperature in Celsius and returns Fahrenheit.
+
+Formula:
+F = (C × 9 / 5) + 32
+
+
+Input:
+25
+
+Output:
+
+Fahrenheit = 77
