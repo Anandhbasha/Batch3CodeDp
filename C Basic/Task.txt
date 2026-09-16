@@ -69,3 +69,65 @@ Input:
 Output:
 
 Fahrenheit = 77
+
+
+
+16 sep 
+Conditional Statements Tasks
+
+Task 1 – Positive, Negative or Zero
+
+Write a C program to get a number from the user and check whether the number is **positive, negative, or zero** using `if`.
+
+
+
+Task 2 – Student Pass or Fail
+
+Write a C program to get the **student's mark** as input.
+
+* If mark is **50 or above**, print `Pass`
+* Otherwise, print `Fail`
+
+Use `if-else`.
+
+
+
+Task 3 – Grade Calculator
+
+Write a C program to get a student's **mark** and display the grade using `else-if`.
+
+* 90–100 → `A Grade`
+* 80–89 → `B Grade`
+* 70–79 → `C Grade`
+* 60–69 → `D Grade`
+* 50–59 → `E Grade`
+* Below 50 → `Fail`
+
+
+
+Task 4 – Electricity Bill Category
+
+Write a C program to get the **number of units consumed** and display the bill category using `else-if`.
+
+* 0–100 units → `Low Usage`
+* 101–200 units → `Medium Usage`
+* 201–500 units → `High Usage`
+* Above 500 units → `Very High Usage`
+
+
+
+Task 5 – Simple Calculator
+
+Write a C program to get **two numbers and an operator** (`+`, `-`, `*`, `/`) from the user.
+
+Use `switch` to perform the selected operation.
+
+Example:
+
+
+Enter first number: 20
+Enter second number: 5
+Enter operator: *
+
+Output: 100
+
