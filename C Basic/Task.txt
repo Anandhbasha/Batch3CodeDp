@@ -38,7 +38,7 @@ Concept: Function + arithmetic operators + return value
 3. Calculate Simple Interest
 
 Task:
-Create a function `simpleInterest()` that accepts **principal, rate, and time** and returns the simple interest.
+Create a function `simpleInterest()` that accepts principal, rate, and time and returns the simple interest.
 
 Formula:
 SI = (P × R × T) / 100
@@ -77,15 +77,15 @@ Conditional Statements Tasks
 
 Task 1 – Positive, Negative or Zero
 
-Write a C program to get a number from the user and check whether the number is **positive, negative, or zero** using `if`.
+Write a C program to get a number from the user and check whether the number is positive, negative, or zero using `if`.
 
 
 
 Task 2 – Student Pass or Fail
 
-Write a C program to get the **student's mark** as input.
+Write a C program to get the student's mark as input.
 
-* If mark is **50 or above**, print `Pass`
+* If mark is 50 or above, print `Pass`
 * Otherwise, print `Fail`
 
 Use `if-else`.
@@ -94,7 +94,7 @@ Use `if-else`.
 
 Task 3 – Grade Calculator
 
-Write a C program to get a student's **mark** and display the grade using `else-if`.
+Write a C program to get a student's mark and display the grade using `else-if`.
 
 * 90–100 → `A Grade`
 * 80–89 → `B Grade`
@@ -107,7 +107,7 @@ Write a C program to get a student's **mark** and display the grade using `else-
 
 Task 4 – Electricity Bill Category
 
-Write a C program to get the **number of units consumed** and display the bill category using `else-if`.
+Write a C program to get the number of units consumed and display the bill category using `else-if`.
 
 * 0–100 units → `Low Usage`
 * 101–200 units → `Medium Usage`
@@ -118,7 +118,7 @@ Write a C program to get the **number of units consumed** and display the bill c
 
 Task 5 – Simple Calculator
 
-Write a C program to get **two numbers and an operator** (`+`, `-`, `*`, `/`) from the user.
+Write a C program to get two numbers and an operator (`+`, `-`, `*`, `/`) from the user.
 
 Use `switch` to perform the selected operation.
 
@@ -131,3 +131,169 @@ Enter operator: *
 
 Output: 100
 
+
+
+
+sep-18
+
+WHILE LOOP – 4 Tasks
+
+Task 1 – Reverse a Number
+
+Write a C program to get an integer from the user and print the reverse of the number using a `while` loop.
+
+Example:
+
+
+Enter a number: 12345
+Output: 54321
+
+
+Task 2 – Count Digits
+
+Write a C program to get an integer from the user and count the number of digits using a `while` loop.
+
+Example:
+
+
+Enter a number: 987654
+Output: Number of digits: 6
+
+
+Task 3 – Sum of Digits
+
+Write a C program to get an integer from the user and find the sum of its digits using a `while` loop.
+
+Example:
+
+
+Enter a number: 5832
+Output: Sum of digits: 18
+
+
+Task 4 – Palindrome Number
+
+Write a C program to get an integer from the user and check whether the number is a palindrome using a `while` loop.
+
+Example:
+
+
+Enter a number: 1221
+Output: Palindrome
+
+
+
+
+DO-WHILE LOOP – 4 Tasks
+
+Task 1 – Number Guessing
+
+Write a C program that asks the user to enter a number between 1 and 10. Continue asking until the user enters the correct number using a `do-while` loop.
+
+Example:
+
+
+Enter your guess: 4
+Wrong guess!
+
+Enter your guess: 7
+Correct!
+
+
+Task 2 – Menu-Driven Calculator
+
+Write a C program to create a menu-driven calculator using a `do-while` loop.
+
+
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+
+
+The program should continue displaying the menu until the user selects `5`.
+
+Task 3 – Positive Number Input
+
+Write a C program that repeatedly asks the user to enter a positive number. Continue asking until the user enters a positive value using a `do-while` loop.
+
+Example:
+
+
+Enter a positive number: -10
+Invalid!
+
+Enter a positive number: -5
+Invalid!
+
+Enter a positive number: 25
+Valid number
+
+
+Task 4 – ATM Menu
+
+Write a C program to create a simple ATM menu using a `do-while` loop.
+
+
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Exit
+
+The menu should continue to appear until the user selects `4`.
+
+
+
+FOR LOOP – 4 Tasks
+
+Task 1 – Prime Numbers
+
+Write a C program to get a number `n` from the user and print all prime numbers from `1` to `n` using `for` loops.
+
+Example:
+
+
+Enter n: 20
+
+Prime numbers:
+2 3 5 7 11 13 17 19
+
+
+Task 2 – Multiplication Table
+
+Write a C program to get a number from the user and print its multiplication table from 1 to 20 using a `for` loop.
+
+Example:
+
+
+Enter a number: 7
+
+7 x 1 = 7
+7 x 2 = 14
+
+7 x 20 = 140
+
+Task 3 – Armstrong Number
+
+Write a C program to get an integer from the user and check whether it is an Armstrong number using a `for` loop.
+
+Example:
+
+
+Enter a number: 153
+Output: Armstrong Number
+
+Task 4 – Number Pattern
+
+Write a C program to print the following pattern using nested `for` loops.
+
+
+1
+12
+123
+1234
+12345
+
+
+For `n = 5`, the output should contain 5 rows.
