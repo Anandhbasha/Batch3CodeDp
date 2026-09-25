@@ -319,3 +319,38 @@ Sep 23 Cpp Task
 
 
 For `n = 5`, the output should contain 5 rows.
+
+
+
+Sep 25
+C++ Encapsulation & Inheritance – 10 Tasks
+
+1. **Student Details**
+   Create a `Student` class with private `name`, `age`, and `mark`. Use public methods to set and display the values.
+
+2. **Bank Account**
+   Create a `BankAccount` class with private `accountNumber` and `balance`. Use public methods to deposit, withdraw, and display the balance.
+
+3. **Employee Salary**
+   Create an `Employee` class with private `name` and `salary`. Use public methods to set and display employee details.
+
+4. **Vehicle → Car**
+   Create a `Vehicle` base class with `brand` and `speed`. Create a `Car` class that inherits from `Vehicle` and adds `model`.
+
+5. **Person → Student**
+   Create a `Person` class with `name` and `age`. Create a `Student` class that inherits from `Person` and adds `course` and `mark`.
+
+6. **Animal → Dog**
+   Create an `Animal` class with `name` and `age`. Create a `Dog` class that inherits from `Animal` and adds `breed`.
+
+7. **Employee → Manager**
+   Create an `Employee` class with `name` and `salary`. Create a `Manager` class that inherits from `Employee` and adds `department`.
+
+8. **Account → SavingsAccount**
+   Create an `Account` class with private `accountNumber` and `balance`. Create a `SavingsAccount` class that inherits from `Account` and adds `interestRate`.
+
+9. **Product → ElectronicProduct**
+   Create a `Product` class with private `productName` and `price`. Create an `ElectronicProduct` class that inherits from `Product` and adds `warrantyYears`.
+
+10. **School Management**
+    Create a `Person` class with private `name` and `age`. Create `Student` and `Teacher` classes that inherit from `Person`. Add `course` and `marks` for `Student`, and `subject` and `salary` for `Teacher`.
